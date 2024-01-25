@@ -1,0 +1,51 @@
+body{
+    font-size: 15px;
+    margin: 0;
+}
+.bg-img1{
+    height: 100%;
+    width: auto;
+    background-image: url("glass1p2-removebg-preview.png");
+
+}
+.bg-img1 , .bg-img2 , .bg-img3{
+    
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    color: black;
+    word-spacing: 5px;
+    background-attachment: fixed;
+}
+.bg-img2{
+    height: 400px;
+    width: 100%;
+    background-image: url("glass3p2-removebg-preview.png");
+}
+.bg-img3{
+    height: 400px;
+    width: 100%;
+    background-image: url("glass4p2-removebg-preview.png");
+
+}
+.bg-text1 , .bg-text2 , .bg-text3{
+    background-color: bisque;
+    opacity: 0.8;
+    border-radius: 20px;
+}
+.sec1-des , .sec2-des , .sec3-des{
+    text-align: center;
+    padding: 50px 20px;
+    font-size: 20px;
+}
+.sec1-des{
+  background-color: rgb(192, 187, 187); 
+  color: black;   
+}
+.sec3-des , .sec2-des{
+  background-color: rgb(54, 54, 54); 
+  color: bisque;   
+}
